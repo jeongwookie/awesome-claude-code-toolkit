@@ -782,6 +782,7 @@ claude-code-toolkit/               800+ files
 
 | Name | Stars | Description |
 |------|-------|-------------|
+| [ctrl](https://ctrl.bulletproof.sh) | - | Pixel-art office that visualizes AI coding agents (Claude Code, Codex, Gemini) working in real time. Standalone web app + daemon, relay sharing for remote access, multi-agent support |
 | [Opcode](https://github.com/winfunc/opcode) | 21,000+ | Tauri 2 desktop GUI and toolkit for Claude Code -- create custom agents with visual editor, usage analytics, MCP integration |
 | [CloudCLI](https://github.com/siteboon/claudecodeui) | 8,400+ | Free open-source web/mobile UI for Claude Code, Cursor CLI, and Codex. Responsive design, integrated shell, file explorer, git explorer |
 | [Companion](https://github.com/The-Vibe-Company/companion) | 2,200+ | Web & mobile UI for Claude Code & Codex. Launch parallel sessions, stream responses, approve tools, session recovery |
