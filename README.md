@@ -794,6 +794,7 @@ claude-code-toolkit/               800+ files
 | [TokenEater](https://github.com/AThevon/TokenEater) | 179 | Native macOS menu bar app for monitoring Claude AI usage limits and watching coding sessions live |
 | [Claw](https://github.com/jamesrochabrun/Claw) | 86 | Native macOS app wrapping Claude Code SDK in Swift. Plan Mode, MCP Integration, Custom System Prompts |
 | [The Claude Protocol](https://github.com/AvivK5498/The-Claude-Protocol) | 149 | Enforcement layer wrapping Claude Code with 13 hooks -- blocks unsafe operations, enforces worktree isolation |
+| [OctoAlly](https://github.com/ai-genius-automations/octoally) | 18 | AI coding session orchestration dashboard -- multi-agent hive-mind via RuFlo, Whisper voice dictation, tmux session persistence, built-in git source control, Electron desktop app |
 
 ---
 
