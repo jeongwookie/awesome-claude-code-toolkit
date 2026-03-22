@@ -86,6 +86,7 @@ One hundred twenty-one production-ready plugins that extend Claude Code with dom
 | [content-creator](plugins/content-creator/) | Technical content generation for blog posts and social media |
 | [context7-docs](plugins/context7-docs/) | Fetch up-to-date library documentation via Context7 for accurate coding |
 | [contract-tester](plugins/contract-tester/) | API contract testing with Pact for microservice compatibility |
+| [cozempic](https://github.com/Ruya-AI/cozempic) | ✨ v1.2.x — Self-updating now, atomic writes, strict session guard, zero false positives on team detection. 13 pruning strategies, Agent Team protection, MCP server, JSONL doctor. Install: `/plugin marketplace add Ruya-AI/cozempic` |
 | [create-worktrees](plugins/create-worktrees/) | Git worktree management for parallel development workflows |
 | [cron-scheduler](plugins/cron-scheduler/) | Cron job configuration and schedule validation |
 | [css-cleaner](plugins/css-cleaner/) | Find unused CSS and consolidate stylesheets |
