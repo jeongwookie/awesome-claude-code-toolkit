@@ -648,6 +648,16 @@ cp hooks/hooks.json .claude/hooks.json
 cp -r hooks/scripts/ .claude/hooks/scripts/
 ```
 
+### Quick Setup with cc-safe-setup
+
+Install 8 production-tested safety hooks in one command — destructive command blocker, branch push protection, secret leak prevention, syntax validation, and more:
+
+```bash
+npx cc-safe-setup
+```
+
+Includes `--audit` (score your setup 0-100), `--scan` (detect tech stack, recommend hooks), and `--verify` (test each hook). See [cc-safe-setup](https://github.com/yurukusa/cc-safe-setup) for details.
+
 ---
 
 ## Rules
