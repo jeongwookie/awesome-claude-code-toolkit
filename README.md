@@ -1,6 +1,6 @@
 # Claude Code Toolkit
 
-**The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills (+400,000 via [SkillKit](https://agenstskills.com)), 42 commands, 150+ plugins, 19 hooks, 15 rules, 7 templates, 8 MCP configs, and more.**
+**The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills (+400,000 via [SkillKit](https://agenstskills.com)), 42 commands, 155+ plugins, 19 hooks, 15 rules, 8 templates, 8 MCP configs, and more.**
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
@@ -40,7 +40,7 @@ curl -fsSL https://raw.githubusercontent.com/rohitg00/awesome-claude-code-toolki
 - [Commands](#commands) (42)
 - [Hooks](#hooks) (19 scripts)
 - [Rules](#rules) (15)
-- [Templates](#templates) (7)
+- [Templates](#templates) (8)
 - [MCP Configs](#mcp-configs) (8)
 - [Contexts](#contexts) (5)
 - [Examples](#examples) (3)
@@ -214,6 +214,11 @@ Over 150 production-ready plugins that extend Claude Code with domain-specific c
 | [wshobson/agents](https://github.com/wshobson/agents) | 112 specialized agents, 16 multi-agent workflow orchestrators, 146 skills, 79 tools in 72 focused plugins. 31,300+ stars |
 | [web-dev](plugins/web-dev/) | Full-stack web development with app scaffolding and page generation |
 | [workflow-optimizer](plugins/workflow-optimizer/) | Development workflow analysis and optimization recommendations |
+| [the-pragmatic-pm](https://github.com/marfoerst/the-pragmatic-pm) | PM leadership toolkit with 43 skills, 5 orchestrator agents, 4 workflows for PRD, OKR, pricing, and go-to-market |
+| [pulse](https://github.com/chsm04/pulse) | Local HTTP Channel plugin for push notifications into sessions via POST. Three alert levels, source tracking, deduplication |
+| [background-timer](https://github.com/culminationAI/background-timer) | Background timer with task notifications -- set delayed checks without blocking conversation |
+| [claude-sounds](https://github.com/culminationAI/claude-sounds) | Audio feedback for Claude Code hooks -- 10 events, 21 sounds, random rotation, customizable (macOS) |
+| [claude-agentic-coding-playbook](https://github.com/john-wilmes/claude-agentic-coding-playbook) | Evidence-based LLM-assisted dev practices with 19+ guard/lifecycle hooks, autonomous task queue, fleet indexing |
 
 ### Installing a Plugin
 
@@ -485,6 +490,7 @@ Thirty-five curated skill modules included in this repo, with access to **400,00
 | [claude-skills](https://github.com/alirezarezvani/claude-skills) | `git clone` | 192 production-ready skills across 9 domains (engineering, marketing, product, compliance, C-level advisory) with 254 Python automation tools. 5,300+ stars |
 | [n8n-skills](https://github.com/czlonkowski/n8n-skills) | `git clone` | 7 complementary skills for building production-ready n8n workflows. Covers 525+ nodes, 2,653+ templates. 3,400+ stars |
 | [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | `git clone` | Comprehensive reference implementation for Claude Code configuration -- skills, subagents, hooks, commands with practical examples. 17,400+ stars |
+| [ADHX](https://github.com/itsmemeworks/adhx) | `/plugin marketplace add itsmemeworks/adhx` | Fetch any X/Twitter post as clean LLM-friendly JSON without scraping or a browser |
 
 ### Installing Skills
 
@@ -676,7 +682,7 @@ Fifteen coding rules that enforce consistent patterns. Add to `.claude/rules/` o
 
 ## Templates
 
-Seven CLAUDE.md templates for different project types.
+Eight CLAUDE.md templates for different project types.
 
 | Template | File | Use Case |
 |----------|------|----------|
@@ -687,6 +693,7 @@ Seven CLAUDE.md templates for different project types.
 | Enterprise | [`enterprise.md`](templates/claude-md/enterprise.md) | Large teams with compliance and SSO |
 | Python Project | [`python-project.md`](templates/claude-md/python-project.md) | FastAPI/Django Python projects |
 | Fullstack App | [`fullstack-app.md`](templates/claude-md/fullstack-app.md) | Next.js + API fullstack applications |
+| Reference Architecture | [claude-code-blueprint](https://github.com/faizkhairi/claude-code-blueprint) | Battle-tested reference architecture with model tiering, natural-language skills, lifecycle hooks, path-scoped rules |
 
 ```bash
 cp templates/claude-md/standard.md CLAUDE.md
@@ -794,6 +801,8 @@ claude-code-toolkit/               800+ files
 | [TokenEater](https://github.com/AThevon/TokenEater) | 179 | Native macOS menu bar app for monitoring Claude AI usage limits and watching coding sessions live |
 | [Claw](https://github.com/jamesrochabrun/Claw) | 86 | Native macOS app wrapping Claude Code SDK in Swift. Plan Mode, MCP Integration, Custom System Prompts |
 | [The Claude Protocol](https://github.com/AvivK5498/The-Claude-Protocol) | 149 | Enforcement layer wrapping Claude Code with 13 hooks -- blocks unsafe operations, enforces worktree isolation |
+| [Notch So Good](https://github.com/deepshal99/notch-so-good) | new | macOS notch-based session monitor with pixel-art companion, 13 animations, smart notifications, multi-session support |
+| [jarvis-company-board](https://github.com/Ramsbaby/jarvis-company-board) | new | Real-time AI agent collaboration board (Next.js 15 + SQLite) with 8 AI board members and DEV task approval workflow |
 
 ---
 
@@ -818,6 +827,17 @@ Notable projects, directories, and resources across the Claude Code ecosystem.
 | [myclaude](https://github.com/stellarlinkco/myclaude) | 2,400+ | Multi-agent orchestration routing to Claude Code, Codex, Gemini, and OpenCode |
 | [claude-code-mcp](https://github.com/steipete/claude-code-mcp) | 1,100+ | Run Claude Code as a one-shot MCP server -- an agent in your agent |
 | [ccmanager](https://github.com/kbwo/ccmanager) | 940+ | Session manager supporting 8 coding agents with smart auto-approval |
+| [clooks](https://github.com/mauribadnights/clooks) | new | Persistent hook daemon that replaces per-invocation spawning -- 112x faster hooks with batching, dependency resolution, metrics |
+| [gemini-claude-bridge](https://github.com/weijiafu14/gemini-claude-bridge) | new | Gemini-to-Claude protocol converter for using Gemini models as Claude Code backend. Fixes 3 LiteLLM bugs |
+| [claude-code-kickstart](https://github.com/ypollak2/claude-code-kickstart) | new | Opinionated starter kit -- one command to install curated MCP servers, hooks, agents, and profiles |
+| [claude-starter-kit](https://github.com/awrshift/claude-starter-kit) | new | Ready-to-use project structure with persistent memory, session continuity, hooks, and 3 bundled skills |
+| [Cortex](https://github.com/SKULLFIRE07/cortex-memory) | new | Persistent AI memory with auto-capture -- VSCode extension, CLI tool, and MCP server |
+| [claude-code-power-stack](https://github.com/bluzername/claude-code-power-stack) | new | Ghost memory, conversation search, session naming, and Manus-style planning in a single install |
+| [claude-node](https://github.com/claw-army/claude-node) | new | Python subprocess bridge for Claude Code CLI with stream-json for direct native capability access |
+| [jarvis](https://github.com/Ramsbaby/jarvis) | new | Turns Claude Max into 24/7 AI ops -- Discord bot, 76 scheduled tasks, 12 AI teams, LanceDB RAG, self-healing |
+| [openclaw-self-healing](https://github.com/Ramsbaby/openclaw-self-healing) | 32 | 4-tier autonomous crash recovery -- 64% auto-resolved, LLM-agnostic, Prometheus metrics |
+| [openclaw-memorybox](https://github.com/Ramsbaby/openclaw-memorybox) | 8 | Memory hygiene CLI -- prevents context overflow, 83% MEMORY.md size reduction, zero dependencies |
+| [openclaw-self-evolving](https://github.com/Ramsbaby/openclaw-self-evolving) | 2 | Weekly self-improvement pipeline -- scans session logs, proposes CLAUDE.md rule changes, zero API cost |
 
 ---
 
