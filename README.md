@@ -343,6 +343,7 @@ One hundred thirty-five specialized agents organized into ten categories. Each a
 | Vector DB Engineer | [`vector-database-engineer.md`](agents/data-ai/vector-database-engineer.md) | FAISS, Pinecone, Qdrant, Weaviate, embeddings |
 | Data Visualization | [`data-visualization.md`](agents/data-ai/data-visualization.md) | D3.js, Chart.js, Matplotlib, Plotly dashboards |
 | Feature Engineer | [`feature-engineer.md`](agents/data-ai/feature-engineer.md) | Feature stores, pipelines, encoding strategies |
+| AutoResearch Agent | [`autoresearch-agent.md`](agents/data-ai/autoresearch-agent.md) | ML experiment automation via tree search, code optimization |
 
 ### Developer Experience (15 agents)
 
