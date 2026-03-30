@@ -121,6 +121,7 @@ Over 150 production-ready plugins that extend Claude Code with domain-specific c
 | [create-worktrees](plugins/create-worktrees/) | Git worktree management for parallel development workflows |
 | [cron-scheduler](plugins/cron-scheduler/) | Cron job configuration and schedule validation |
 | [css-cleaner](plugins/css-cleaner/) | Find unused CSS and consolidate stylesheets |
+| [cup](https://github.com/krodak/clickup-cli) | ClickUp CLI for AI agents with task management, sprints, and time tracking |
 | [data-privacy](plugins/data-privacy/) | Data privacy implementation with PII detection and anonymization |
 | [database-optimizer](plugins/database-optimizer/) | Database query optimization with index recommendations and EXPLAIN analysis |
 | [dead-code-finder](plugins/dead-code-finder/) | Find and remove dead code across the codebase |
