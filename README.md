@@ -200,6 +200,7 @@ Over 150 production-ready plugins that extend Claude Code with domain-specific c
 | [query-optimizer](plugins/query-optimizer/) | SQL query optimization and execution plan analysis |
 | [rag-builder](plugins/rag-builder/) | Build Retrieval-Augmented Generation pipelines |
 | [rapid-prototyper](plugins/rapid-prototyper/) | Quick prototype scaffolding with minimal viable structure |
+| [reporecall](https://github.com/proofofwork-agency/reporecall) | Local codebase memory for Claude Code. Tree-sitter AST indexing (22 languages), hybrid keyword + vector search, call-graph traversal, hooks + MCP. Injects relevant context in ~5ms before Claude starts thinking. npm: `@proofofwork-agency/reporecall` |
 | [react-native-dev](plugins/react-native-dev/) | React Native mobile development with platform-specific optimizations |
 | [readme-generator](plugins/readme-generator/) | Smart README generation from project analysis |
 | [refactor-engine](plugins/refactor-engine/) | Extract functions, simplify complex code, and reduce cognitive complexity |
