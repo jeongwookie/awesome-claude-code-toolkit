@@ -880,7 +880,7 @@ Notable projects, directories, and resources across the Claude Code ecosystem.
 | [AIRIS MCP Gateway](https://github.com/agiletec-inc/airis-mcp-gateway) | new | Docker-based MCP multiplexer that aggregates 60+ tools behind 7 meta-tools, reducing context token usage by 97%. One command to start, auto-enables servers on demand |
 | [gemini-claude-bridge](https://github.com/weijiafu14/gemini-claude-bridge) | new | Gemini-to-Claude protocol converter for using Gemini models as Claude Code backend. Fixes 3 LiteLLM bugs |
 | [spartan-ai-toolkit](https://github.com/spartan-stratos/spartan-ai-toolkit) | new | Engineering discipline layer for Claude Code -- 67 slash commands, 20 coding rules, 27 skills, 9 agents, quality gates between every step. 8 stack profiles (Go, Python, Java, Kotlin, React, etc.), agent memory across sessions. Install: `npx @c0x12c/spartan-ai-toolkit@latest --local` |
-| [agent-dotfiles](https://github.com/saqibameen/agent-dotfiles) | new | Write AI coding rules once, sync to every agent. Supports Claude Code, Cursor, Copilot, Codex, OpenCode, Windsurf, Gemini CLI, Kilo Code |
+| [agent-dotfiles](https://github.com/saqibameen/agent-dotfiles) | new | Write AI coding rules once, sync to every agent. Supports Command Code, Claude Code, Cursor, Copilot, Codex, OpenCode. |
 
 ---
 
